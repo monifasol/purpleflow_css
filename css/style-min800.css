@@ -2,9 +2,6 @@
   main {
     margin-top: 50px; }
 
-  .menu-icon {
-    display: none; }
-
   .dropdown .dropdown-content {
     transform: none; }
   .dropdown.is-active .dropdown-content {
