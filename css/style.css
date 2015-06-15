@@ -116,11 +116,11 @@ header {
   GRID
 ============================================================ */
 main .grid {
+  width: 90%;
+  margin: 35px auto 0;
   -webkit-column-count: 1;
   -moz-column-count: 1;
-  column-count: 1;
-  width: 90%;
-  margin: 35px auto 0; }
+  column-count: 1; }
   main .grid .box {
     border: 1px solid #8700ff;
     background: #f0f0f0;
@@ -140,21 +140,9 @@ main .grid {
     main .grid .box.large {
       height: 120px; }
 
-/*====================================*/
-/*========= fade in elements =========*/
-/*====================================*/
-.fadein {
-  opacity: 0;
-  -webkit-transition: opacity 1s ease-in;
-  -moz-transition: opacity 1s ease-in;
-  -ms-transition: opacity 1s ease-in;
-  -o-transition: opacity 1s ease-in;
-  transition: opacity 1s ease-in; }
-
-.fadein.load {
-  opacity: 1; }
-
-/*====================================*/
+/* ============================================================
+  FOOTER
+============================================================ */
 footer {
   background-color: #000000;
   color: #ffffff;
